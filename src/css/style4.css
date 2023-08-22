@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Antarctican Headline';
+    font-style: normal;
+    font-weight: 900;
+    font-display: auto;
+    src: url("./src/fonts/AntarcticanHeadlineBold.ttf") format('truetype');
+    src: url("./src/fonts/AntarcticanHeadlineSemiBold.ttf") format("SemiBold");
+}
+font-face {
+  font-family: "AntarcticBold";
+  src: url("./src/fonts/AntarcticanHeadlineBold.ttf") format("Bold"),
+       url("./src/fonts/AntarcticanHeadlineSemiBold.ttf") format("SemiBold");
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #FDFAE9;
+}
+
+.container {
+    width: 65%;
+}
+
+.box {
+    display: flex;
+    background-color: #28282d;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.image-side {
+    flex: 1;
+    max-width: 50%;
+    overflow: hidden;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.text-side {
+    flex: 1;
+    padding: 20px;
+    background-color: #28282d;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "AntarcticBold", Sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+p {
+    font-family: "AntarcticBold", Sans-serif;
+    font-size: 21px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: -0;
+    padding-bottom: 0;
+
+}
+h1 {
+    margin-top: 0;
+    font-family: "AntarcticBold", Sans-serif;
+    font-size: 75px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #ffcc19;
+
+}
+
+button {
+    background-color: #ffcc19;
+    color: #28282d;
+    border: none;
+    padding: 15px 25px 15px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "AntarcticBold", Sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    transition: transform 0.3s; 
+}
+
+button:hover {
+    background-color: #ffffff ;
+    transform: translateY(-8px);
+
+    color: #000000;
+    border-color: #000000;
+    font-family: "Roboto Condensed", Sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 15px 25px 15px 25px;
+    transition: transform 0.3s; 
+    line-height: 1;
+    display: inline-block;
+}

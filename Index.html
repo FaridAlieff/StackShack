@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./src/css/style2.css">
+
+
+<title>Form Example</title>
+<style>
+@font-face {
+	font-family: 'Antarctican Headline';
+	font-style: normal;
+	font-weight: 900;
+	font-display: auto;
+	src: url('./src/fonts/AntarcticanHeadlineBold.ttf') format('truetype');
+}
+</style>
+</head>
+<body>
+<div class="form-container">
+  <div class="left-column">
+    <img src="/src/img/SecretSauce.gif" alt="Left Image" width="100%">
+    <br>
+    <br>
+    <br>
+    <br>
+  </div>
+  <div class="center-column">
+    <h2 class="headline" style="color: #26282D ;">SIGN UP TO OUR NEWSLETTER</h2>
+    <h3 class="headline-title" style="color: #26282D; font-size: 31px;" >Don't worry we will not spam you</h5>
+    <form>
+      <label class="input-label" for="name">Name</label>
+      <input type="text" id="name" class="input-field" required placeholder="">
+      <label class="input-label" for="email">Email</label>
+      <input type="email" id="email" class="input-field" required placeholder="">
+      <label class="input-label" for="telephone">Telephone</label>
+      <input type="tel" id="telephone" class="input-field" required placeholder="994"> 
+      <label class="input-label" for="birthday">When is it your birthday?</label>
+      <input type="date" id="birthday" class="input-field" required placeholder="21.06.1994" >
+<div class="sign-button">
+      <button class="sign-me" type="submit">Sign me up</button>
+    </div>
+    </form>
+  </div>
+  <div class="right-column">
+    <img src="/src/img/TopDog.gif" alt="Right Image" width="100%">
+  </div>
+</div>
+</body>
+</html>

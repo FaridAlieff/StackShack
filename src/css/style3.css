@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo-container {
+    background-color: #28282d;
+    display: flex;
+    align-items: center;
+    height: 12vh;
+    word-spacing: auto;
+}
+.logo {
+    width: 100%;
+    max-width: 200px;
+    height: 60px;
+    display: inline-flex;
+    margin: auto;
+ 
+}
+.order-button {
+    background-color: #26282D ;
+    color: #ffcc19;
+    border-color: #272727;
+    font-family: "Roboto Condensed", Sans-serif;
+    font-size: 18px;
+    font-weight: 750;
+    text-transform: uppercase;
+    border-style: none;
+    border-radius: 8px 8px 8px 8px;
+    padding: 15px 25px 15px 25px;
+    transition: transform 0.3s; 
+    line-height: 1.2;
+    display: inline-block;
+}
+.menu-icon {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: auto;
+}
+.menu-icon i {
+    font-size: 30px; 
+    color: #ffcc19; 
+    margin-right: 20px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Antarctican Headline';
+}
+
+.order-button {
+    font-size: 18px;
+    font-weight: 900;
+    color: #28282d;
+    background-color: #ffcc19;
+    border-radius: 8px 8px 8px 8px;
+    margin-left: 20px;
+    letter-spacing: -1px;
+    border-style: none;
+}
+  @font-face {
+      font-family: 'Antarctican Headline';
+      font-style: normal;
+      font-weight: 900;
+      font-display: auto;
+      src: url("./src/fonts/AntarcticanHeadlineBold.ttf") format('truetype');
+      src: url("./src/fonts/AntarcticanHeadlineSemiBold.ttf") format("SemiBold");
+  }
+  font-face {
+    font-family: "AntarcticBold";
+    src: url("./src/fonts/AntarcticanHeadlineBold.ttf") format("Bold"),
+         url("./src/fonts/AntarcticanHeadlineSemiBold.ttf") format("SemiBold");
+  }
+
+  .footer {
+    background-color: #28282d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.left {
+    text-align: left;
+    color: white;
+    font-size: 67px;
+}
+
+.center {
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    
+}
+
+.right {
+    text-align: right;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    color: #ffcc19;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+.bottom-text {
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 18px;
+    text-align: right;
+    color: #ffcc19;
+}
+    
